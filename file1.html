@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h3 align="center">New Users Registration</h3>
+    </head>
+    <body>
+        <form>
+            <table align ="center" border="3px" cellpadding="10px">
+                <tr>
+                    <td>
+                    <h5>First Name</h5>
+                    </td>
+                    <td>
+                        <input type="text" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <h5>Last Name</h5>
+                    </td>
+                    <td>
+                        <input type="text" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <h5>Email</h5>
+                    </td>
+                    <td>
+                        <input type="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <h5>Telephone</h5>
+                    </td>
+                    <td>
+                        <input type="tel" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <h5>Website</h5>
+                    </td>
+                    <td>
+                        <input type="url">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <h5>Birth Date</h5>
+                    </td>
+                    <td>
+                        <input type="date" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <h5>Age</h5>
+                    </td>
+                    <td>
+                        <input type="number" min="18" max="54" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <h5>Education</h5>
+                    </td>
+                    <td>
+                        <input type="search" id="Education">
+                                <datalist id="Education">
+                                    <option value="Higher Secondary"></option>
+                                    <option value="Graduate"></option>
+                                    <option value="Post Graduate"></option>
+                                </datalist>
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                    <h5>Interest</h5>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Interest" value="Music">Music</input><br>
+                        <input type="checkbox" name="Interest" value="Art">Art</input><br>
+                        <input type="checkbox" name="Interest" value="Sports">Sports</input><br>
+                        <input type="checkbox" name="Interest" value="Travel">Travel</input> <br>
+                    </td>
+                </tr>
+                <tr >
+                    <td colspan="2" align="center"><input type="submit" value="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
